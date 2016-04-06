@@ -1,4 +1,4 @@
-1. instalace
+1. instalace serveru z DEB repozitáře
  - https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-repositories.html
 
 1. nastavení **/etc/elasticsearch/elasticsearch.yml**
@@ -14,7 +14,8 @@
  
 1. instalace hunspell slovníků
  - https://www.zdrojak.cz/clanky/elasticsearch-vyhledavame-hezky-cesky-ii-a-taky-slovensky/
- - vytvořit strukturu adresářů do `/etc/elasticsearch/hunspell` a nakopírovat do ní soubory, viz předchozí návod
+ - vytvořit strukturu adresářů do `/etc/elasticsearch/hunspell` a nakopírovat do ní soubory, viz předchozí návod, soubory připraveny [zde](https://gitlab.sanasport.cz/doc/elasticsearch-server-install/tree/master/hunspell)
+ - oprávnění adresářů i souborů `chown -R root:elasticsearch /etc/elasticsearch/hunspell`
  
 1. start
  - `service elasticsearch start`
