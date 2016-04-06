@@ -1,9 +1,11 @@
 1. instalace serveru z DEB repozitáře
  - https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-repositories.html
+ - nainstaluje se do `/usr/share/elasticsearch` a konfigurace je `/usr/share/elasticsearch`
 
-1. nastavení **/etc/elasticsearch/elasticsearch.yml**
- - ideálně nastavit **cluster.name** a **node.name** pro identifikaci clusteru a nodu
- - nastavit **network.host** podle toho kde má server naslouchat, default je localhost, dají se použít magické konstanty (např. _global_), viz https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-network.html
+1. nastavení
+ - soubor `/etc/elasticsearch/elasticsearch.yml`
+ - ideálně nastavit `cluster.name` a `node.name` pro identifikaci clusteru a nodu
+ - nastavit `network.host` podle toho kde má server naslouchat, default je localhost, dají se použít magické konstanty (např. _global_), viz https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-network.html
 
 1. zabezpečení
  - pokud sme dali naslouchat na veřejnou IP, je potřeba zabezpečit na firewallu přístup na porty (default 9200 a 9300) jen z konkrétních IP
