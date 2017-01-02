@@ -2,9 +2,9 @@
  - https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-repositories.html
  - nainstaluje se do `/usr/share/elasticsearch` a konfigurace je `/usr/share/elasticsearch`
 
-1. nastavení
+1. konfigurace
  - soubor `/etc/elasticsearch/elasticsearch.yml`
- - ideálně nastavit `cluster.name` a `node.name` pro identifikaci clusteru a nodu
+ - nastavit `cluster.name` a `node.name` pro identifikaci clusteru a nodu
  - nastavit `network.host` podle toho kde má server naslouchat, default je localhost, dají se použít magické konstanty (např. _global_), viz https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-network.html
 
 1. zabezpečení
