@@ -3,7 +3,9 @@ Elasticsearch
 
 (https://www.elastic.co/products/elasticsearch)
 
-## [Instalace - návod](elasticsearch-install-server.md)
+## Instalace - návod
+
+ * [návod zde](elasticsearch-install-server.md)
 
 ## Manipulace (status, restart)
 
