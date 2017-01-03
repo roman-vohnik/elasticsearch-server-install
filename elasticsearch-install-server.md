@@ -1,6 +1,6 @@
 1. instalace serveru z DEB repozitáře
  - https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-repositories.html
- - nainstaluje se do `/usr/share/elasticsearch` a konfigurace je `/usr/share/elasticsearch`
+ - nainstaluje se do `/usr/share/elasticsearch` a konfigurace je `/etc/elasticsearch`
 
 1. konfigurace
  - soubor `/etc/elasticsearch/elasticsearch.yml`
